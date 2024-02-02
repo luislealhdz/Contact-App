@@ -1,0 +1,7 @@
+@for (contact of contactList; track $index) {
+<article class="bg-cyan-800 my-2 p-3 rounded-xl border-4 border-cyan-950 max-w-lg ms-auto me-auto">
+  <h5 class="text-2xl text-slate-200">{{ contact.name }}</h5>
+  <p class="text-sm text-neutral-300">{{contact.address.city}}</p>
+  <p class="text-sm text-neutral-300">{{ contact.phone }}</p>
+</article>
+}

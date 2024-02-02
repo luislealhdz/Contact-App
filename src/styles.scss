@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$bg-blue: #1a3849;
+$item-card: #21495f;
+$buttons: #4e88a8;
+
+body {
+  background-color: $bg-blue;
+}
+
+.container {
+  width: min(100% - 2rem, 1200px);
+  margin-inline: auto;
+}
